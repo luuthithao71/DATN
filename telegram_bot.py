@@ -13,7 +13,6 @@ logging.basicConfig(
     level=logging.INFO
 )
 TELEGRAM_API_TOKEN = os.getenv("TELEGRAM_API_TOKEN")
-print(TELEGRAM_API_TOKEN, chatgpt_client.openai_api_base, chatgpt_client.openai_api_key)
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(chat_id=update.effective_chat.id, text="I'm a bot, please talk to me!")
 

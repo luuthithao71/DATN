@@ -2,7 +2,7 @@ from openai import OpenAI
 
 # Modify OpenAI's API key and API base to use vLLM's API server.
 openai_api_key = ""
-openai_api_base = "https://06bf-34-83-127-218.ngrok-free.app"
+openai_api_base = "https://e771-34-16-177-54.ngrok-free.app"
 
 client = OpenAI(
     # defaults to os.environ.get("OPENAI_API_KEY")
